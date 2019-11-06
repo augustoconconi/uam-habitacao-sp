@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+p {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.story-sub {
+    max-width: 750px;
+    margin: auto;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+}
+
+.story-byline-line {
+    transform: translateX(-300px); 
+    max-width: 200px;
+    margin-top: 80px;
+}
+
+.story-byline {
+    margin: auto;
+    max-width: 800px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+}
+
+.story-byline::before {
+    content: '';
+    height: 8px;
+    border-radius: 4px;
+    background-color: #888;
+    position: absolute;
+    width: 29px;
+    top: -18px;
+    left: 0px;
+}
+
+.story-heading {
+    margin: auto;
+    max-width: 600px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+}
+
+.story-paragraph {
+    margin: auto;
+    max-width: 800px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5d5d5d;
+}
+
+/* gráficos */
+
+.story-graphic {
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 20px;
+}
+
+.flourish-credit {
+    display: none;
+}
+
+@media (max-width: 420px) {
+    body {
+        padding: 10px;
+    }
+
+    .story-byline-line {
+        transform: translateX(-87px);
+    }
+
+    .story-heading {
+        text-align: left;
+    }
+
+    .story-sub {
+        text-align: left;
+    }
+}
