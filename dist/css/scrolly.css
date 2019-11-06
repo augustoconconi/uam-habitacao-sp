@@ -41,7 +41,7 @@
 
 .fullscreen {
 	width: none !important;
-	height: 100vh !important;
+	/* height: 100vh !important; */
 	max-height: auto !important;
 	object-fit: cover;
 
