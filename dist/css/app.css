@@ -74,6 +74,15 @@ strong {
     text-align: center;
 }
 
+.story-heading h2{
+    margin: auto;
+    max-width: 600px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
 .story-kicker {
     font-family: 'Poppins', serif;
     font-weight: bold;
