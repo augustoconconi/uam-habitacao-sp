@@ -40,8 +40,8 @@
 }
 
 .fullscreen {
-	width: none !important;
-	/* height: 100vh !important; */
+	width: 100% !important;
+	height: 100% !important;
 	max-height: auto !important;
 	object-fit: cover;
 
