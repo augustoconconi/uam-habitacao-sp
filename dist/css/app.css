@@ -39,6 +39,15 @@ strong {
     color: gray;
 }
 
+.story-annotation {
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: gray;
+}
+
 .story-byline-line {
     transform: translateX(-300px); 
     max-width: 200px;
